@@ -1,0 +1,11 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+
+body {
+    background-color: rgb(235, 235, 213);
+    color: rgb(15, 2, 2);
+}
