@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['192.168.41.136','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['192.168.41.136','127.0.0.1','localhost','murmuring-reaches-65112.herokuapp.com']
 
 
 # Application definition
