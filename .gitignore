@@ -133,4 +133,5 @@ dmypy.json
 # Database
 *.sqlite3
 
-#sittana
+[alias]
+    add-untracked = !"git status --porcelain | awk '/\\?\\?/{ print $2 }' | xargs git add"
