@@ -58,12 +58,14 @@
         <li>Staff</li>
         {% endif %}
          <li><a href="{% url 'all-borrowed' %}">All Borrowed</a></li>
+         <li><a href="{% url 'borrow_book_view' %}">Borrrowing </a></li>
       </ul>
     
   {% endblock %}
       </div>
-      <div class="col-sm-10 ">{% block content %}{% endblock %}</div>
-    
+   
+    <div class="col-sm-20 ">{% block content %}{% endblock %}</div>
   </div>
+  
 </body>
 </html>
