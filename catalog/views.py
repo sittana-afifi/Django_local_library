@@ -168,7 +168,7 @@ class BorrowBookListView(generic.ListView):
     template_name ='catalog/borrow_book_list.html'
     
     def get_queryset(self):
-        books=BookInstance.objects.all().filter(status='a').distinct('book')
+        books=BookInstance.objects.all().filter(status='a').distinct('book').values('pk')
         return books
 
 
