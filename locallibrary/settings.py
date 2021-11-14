@@ -84,12 +84,12 @@ WSGI_APPLICATION = 'locallibrary.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mydatabase',
-        'USER': 'sittana',
-        'PASSWORD': 'Sittana@123#',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'laudable_db',
+        'USER': 'laudable_user',
+        'PASSWORD': 'laudable_password',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
