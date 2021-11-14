@@ -85,11 +85,11 @@ WSGI_APPLICATION = 'locallibrary.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'laudable_db',
-        'USER': 'laudable_user',
-        'PASSWORD': 'laudable_password',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'd4jcee7e37gk29',
+        'USER': 'kpmjankvdtzywf',
+        'PASSWORD': 'dbf2044b41dd515ad8c15b032a56d04bfbbc2c9b11201438d17eddda3ffd11d2',
+        'HOST': 'ec2-52-204-72-14.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
